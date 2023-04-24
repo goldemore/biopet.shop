@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "image":"./image/cat in packet.png",
+        "title":"Pişik evi",
+        "price":42
+    },
+    {
+        "id":2,
+        "image":"./image/street fashion.png",
+        "title":"İt üçün köynək",
+        "price":60
+    },
+    {
+        "id":3,
+        "image":"./image/pets-food-wooden-floor 1.png",
+        "title":"Yemək qabları",
+        "price":35
+    },
+    {
+        "id":4,
+        "image":"./image/image 1.png",
+        "title":"Müxtəlif tasmalar",
+        "price":22
+    }
+
+]

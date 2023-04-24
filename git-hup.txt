@@ -1,0 +1,8 @@
+Proyekti gut-hupa yuklemek ucun 1ci komanda:
+Terminal=> git init
+Əgər qırmızı yazı gəlirsə, Downloads - Git SCM səhifəsinə daxil olub 64-bit yükləyirik. 
+
+İkinci komanda:
+=> git status - hit-upa dusub yoxsa dusmeyib qirmizidisa demek ki dusmeyib atandan sonra yasil olacaq
+
+=> git add .

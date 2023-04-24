@@ -1,0 +1,59 @@
+[
+  {
+    "id": 5,
+    "image": "./image/products/Me-O Cat Food - Pets - Package Inspiration 1.png",
+    "title": "Pişiklər üçün quru və nəm lasos",
+    "price": 45,
+    "dataName":"enCoxSatilan"
+
+  },
+  {
+    "id": 6,
+    "image": "./image/products/Natures Nuts 00029 8 Lbs Premium Safflower Seed (Pack of 4) 1.png",
+    "title": "Quşlar üçün çərəz",
+    "price": 9.9,
+    "dataName":"yeniMehsul"
+  },
+  {
+    "id": 7,
+    "image": "./image/products/image 5.png",
+    "title": "Balıqlar üçün quru toyuq",
+    "price": 19,
+    "dataName":"enCoxSatilan"
+  },
+  {
+    "id": 8,
+    "image": "./image/products/Dog Friendly Kennebunk, Maine - Daily Dog Tag 1.png",
+    "title": "İtlər üçün sümüklər",
+    "price": 33,
+    "dataName":"yeniMehsul"
+  },
+  {
+    "id": 9,
+    "image": "./image/products/JINX_ Premium Dog Food Made for Modern Dogs 1.png",
+    "title": "İtlər üçün quru yemək və ət",
+    "price": 40,
+    "dataName":"secilenMehsul"
+  },
+  {
+    "id": 10,
+    "image": "./image/products/Wagg Sets Tails Going With a Rebrand by Robot Food 1.png",
+    "title": "Pişiklər üçün çubuq",
+    "price": 13.9,
+    "dataName":"yeniMehsul"
+  },
+  {
+    "id": 11,
+    "image": "./image/products/Kasper Faunafood Caviakorrel - Caviavoer - 4 kg 1.png",
+    "title": "Dovşanlar üçün dəri ət",
+    "price": 10,
+    "dataName":"enCoxSatilan"
+  },
+  {
+    "id": 12,
+    "image": "./image/products/image 4.png",
+    "title": "Balıqlar üçün quru çörək",
+    "price": 25,
+    "dataName":"secilenMehsul"
+  }
+]

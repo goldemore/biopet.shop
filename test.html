@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .slider_card {
+        min-width: 280px;
+        height: 300px;
+        background-color: aqua;
+        transition: 1s;
+      }
+      .test_slider {
+        max-width: 930px;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        gap: 30px;
+        overflow-x: hidden;
+      }
+      .active {
+        margin-top: 50px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test_slider first">
+      <div class="slider_card" style="background-color: blueviolet;">1</div>
+      <div class="slider_card active">2</div>
+      <div class="slider_card" style="background-color: rgb(13, 216, 121);">3</div>
+
+      <div class="slider_card">4</div>
+      <div class="slider_card active">5</div>
+      <div class="slider_card" style="background-color: rgb(0, 126, 115);">6</div>
+
+      <div class="slider_card">7</div>
+      <div class="slider_card active">8</div>
+      <div class="slider_card" style="background-color: rgb(167, 216, 77);">9</div>
+    </div>
+
+    <script>
+      let testSlider = document.querySelector(".test_slider");
+
+      let count = 0;
+
+      function sliderGo() {
+        for (let i = 0; i < testSlider.children.length; i++) {
+          testSlider.children[i].style.transform = `translate(${-310 * count}px)`;
+          testSlider.children[i].classList.remove("active");
+        }
+
+        testSlider.children[count + 1].classList.add("active");
+      }
+      setInterval(() => {
+        if (count < testSlider.children.length - 3) {
+          count++;
+          
+          sliderGo();
+        } else {
+          count = 0;
+          sliderGo();
+        }
+      }, 4000);
+
+
+
+      leftArrow.addEventListener('click', ()=>{
+  for (let i = 0; i < sliderOneContainer.children.length; i++) {
+    sliderOneContainer.children[i].style.transform = `translateX(${-300*(count-1)}px)`;
+    sliderOneContainer.children[i].classList.remove('active_slider')
+  }
+  sliderOneContainer.children[count+2].classList.add('active_slider')
+})
+    </script>
+  </body>
+</html>
